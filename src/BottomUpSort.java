@@ -40,8 +40,8 @@ public class BottomUpSort implements SortInterface{
 	}
 	
 	public int[] sort(int[] array){
-		int[] arr = {1,6,10,2,5,8,9};
-		out.println(Arrays.toString((merge(arr,0,2,4))));
+		int[] arr = {1,6,2,8};
+		out.println(Arrays.toString((merge(arr,0,1,3))));
 		return array;
 	}
 }
