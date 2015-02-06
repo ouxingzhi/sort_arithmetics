@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args){
 		
 		
-		SortInterface i = new SelectionSort();
+		SortInterface i = new BottomUpSort();
 		int[] arr = {1,3483,23,8,2};
  		out.println(Arrays.toString(i.sort(arr)));
 	}
